@@ -13,6 +13,7 @@ jobs: # a basic unit of work in a run
           # build our application
           name: Build Application
           command: xcodebuild
+
       - run:
           # compress Xcode's build output so that it can be stored as an artifact
           name: Compress app for storage
